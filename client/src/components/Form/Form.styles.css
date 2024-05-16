@@ -1,0 +1,62 @@
+.personal-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  margin-top: 2rem;
+  color: var(--color-primary);
+  text-align: center;
+}
+.form {
+  width: 60%;
+  margin: 3rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  margin: 1rem auto;
+  padding: 0.2rem 0.5rem;
+}
+select {
+  padding: 0.2rem;
+}
+label {
+  margin-right: 1rem;
+}
+
+p {
+  display: inline;
+}
+
+.heading-label {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.button {
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  background-color: var(--color-primary);
+  border-radius: 1rem;
+  font-size: 1.1rem;
+}
+
+.radio-btn,
+.checkbox-btn {
+  margin-right: 3px;
+}
+
+@media only screen and (max-width: 500px) {
+  .form {
+    width: 90%;
+  }
+}
